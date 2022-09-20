@@ -1,4 +1,4 @@
 name: gradle
 extensions:
-  - path: ext
+  - path: .
     sdk: go
