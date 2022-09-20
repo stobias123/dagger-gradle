@@ -1,0 +1,4 @@
+name: gradle
+extensions:
+  - path: ext
+    sdk: go

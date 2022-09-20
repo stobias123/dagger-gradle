@@ -1,0 +1,7 @@
+extend type Query {
+    gradle: Gradle!
+}
+
+type Gradle {
+    run(fs: FSID!, command: String!): Filesystem!
+}
